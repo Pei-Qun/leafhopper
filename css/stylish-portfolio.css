@@ -266,3 +266,28 @@ footer {
     display: none;
     padding: 15px 20px;
 }
+#sidebar-wrapper{
+    background: #fff;
+}
+.sidebar-nav li a{
+    font-family: 'cwTeXYen','微軟正黑體','Microsoft JhengHei', sans-serif;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+.sidebar-nav li a:hover{
+    color: #3dbb6e;
+}
+.sidebar-nav > .sidebar-brand a:hover{
+    color: #333;
+}
+.sidebar-nav > .sidebar-brand a{
+    font-size: 24px;
+    font-family: 'cwTeXYen','微軟正黑體','Microsoft JhengHei', sans-serif;
+    color: #3dbb6e;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
