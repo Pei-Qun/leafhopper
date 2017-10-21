@@ -683,6 +683,9 @@ p,h1,h2,h3,h4,h5,h6{
     top: 36%;
     left: 3%;
 }
+.p-6-6{
+    font-size: 48px;
+}
 @media only screen and (max-width: 575px) {
     .p-6-3{
         display: none;
@@ -1024,6 +1027,9 @@ p,h1,h2,h3,h4,h5,h6{
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .p-6-3{
         display: none;
+    }
+    .p-6-6{
+        font-size: 40px;
     }
     .p-18-1{
         top: 10%;
