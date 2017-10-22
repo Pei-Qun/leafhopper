@@ -23,17 +23,7 @@
     <link href="css/style.css" rel="stylesheet">
     <audio src="bgm.mp3" autoplay loop id="pageaudio"></audio>
     <script>
-      var audio = document.getElementById('pageaudio');
-      audio.oncanplay = playmusic();
-      var firsttaped = 0;
-      function playmusic(){
-          $('html').on('touchstart',function(){
-              if(firsttaped == 0){
-                  audio.play();
-                  firsttaped = 1;
-              }
-          });
-      };
+      document.addEventListener('DOMContentLoaded', function () {    function audioAutoPlay() {        var audio = document.getElementById('pageaudio');            audio.play();        document.addEventListener("WeixinJSBridgeReady", function () {            audio.play();        }, false);    }    audioAutoPlay();});
     </script>
   </head>
 
