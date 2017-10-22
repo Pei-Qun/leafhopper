@@ -21,7 +21,20 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <audio src="bgm.mp3" autoplay loop></audio>
+    <audio src="bgm.mp3" autoplay loop id="pageaudio"></audio>
+    <script>
+      var audio = document.getElementById('pageaudio');
+      audio.oncanplay = playmusic();
+      var firsttaped = 0;
+      function playmusic(){
+          $('html').on('touchstart',function(){
+              if(firsttaped == 0){
+                  audio.play();
+                  firsttaped = 1;
+              }
+          });
+      };
+    </script>
   </head>
 
   <body>
