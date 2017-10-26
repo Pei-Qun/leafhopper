@@ -1,5 +1,5 @@
 p,h1,h2,h3,h4,h5,h6{
-    font-family: 'cwTeXYen','微軟正黑體','Microsoft JhengHei', sans-serif;;
+    font-family: 'cwTeXYen','微軟正黑體','Microsoft JhengHei', sans-serif;
     position: absolute;
     z-index: 100;
     color: #333;
@@ -84,8 +84,9 @@ p,h1,h2,h3,h4,h5,h6{
     top: -200px;
     left: 5%;
     width: 40%;
-    color: #999;
+    color: #eee;
     font-size: 18px;
+    text-shadow: 0 0 4px #000;
 }
 .p-3-3 p {
     position: absolute;
@@ -282,6 +283,11 @@ p,h1,h2,h3,h4,h5,h6{
     top: -17px;
     right: 15px;
     transform: rotate(198deg);
+    -moz-transform: rotate(198deg);
+    -webkit-transform: rotate(198deg);
+    -o-transform: rotate(198deg);
+    -ms-transform: rotate(198deg);
+
 }
 .p-9-1{
     background: #fff;
@@ -300,6 +306,11 @@ p,h1,h2,h3,h4,h5,h6{
     top: 10px;
     right: -18px;
     transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+
 }
 .p-9-2{
     top: 62%;
@@ -358,7 +369,7 @@ p,h1,h2,h3,h4,h5,h6{
     text-align: right;
 }
 /*後半段*/
-.bg-11,.bg-12,.bg-13,.bg-14,.bg-15,.bg-16,.bg-17,.bg-18,.bg-19,.bg-20,.bg-21,.bg-22{
+.bg-11,.bg-12,.bg-13,.bg-14,.bg-15,.bg-16,.bg-17,.bg-18,.bg-19,.bg-20,.bg-21,.bg-22,.bg-23,.bg-24,.bg-25,.bg-26,.bg-27,.bg-28{
     overflow: hidden;
     position: relative;
     margin-top: -1px;
@@ -389,6 +400,11 @@ p,h1,h2,h3,h4,h5,h6{
     bottom: -17px;
     right: 15px;
     transform: rotate(376deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
+
 }
 .p-11-4{
     position: absolute;
@@ -405,6 +421,10 @@ p,h1,h2,h3,h4,h5,h6{
     top: -17px;
     right: 15px;
     transform: rotate(200deg);
+    -moz-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    -o-transform: rotate(200deg);
+    -ms-transform: rotate(200deg);
 }
 .bg-11-1{
     display: none;
@@ -443,6 +463,11 @@ p,h1,h2,h3,h4,h5,h6{
     bottom: -17px;
     right: 15px;
     transform: rotate(376deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
+
 }
 .p-12-5{
     position: absolute;
@@ -459,6 +484,11 @@ p,h1,h2,h3,h4,h5,h6{
     top: -17px;
     right: 15px;
     transform: rotate(200deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
+
 }
 .p-13-1{
     position: absolute;
@@ -486,6 +516,11 @@ p,h1,h2,h3,h4,h5,h6{
     top: -17px;
     left: 15px;
     transform: rotate(200deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
+
 }
 .p-14-1{
     position: absolute;
@@ -605,6 +640,10 @@ p,h1,h2,h3,h4,h5,h6{
     top: -17px;
     left: 15px;
     transform: rotate(200deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
 }
 .p-20-4{
     position: absolute;
@@ -621,6 +660,10 @@ p,h1,h2,h3,h4,h5,h6{
     top: -17px;
     right: 15px;
     transform: rotate(200deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
 }
 .p-20-5{
     bottom: 2%;
@@ -641,6 +684,10 @@ p,h1,h2,h3,h4,h5,h6{
     color: #fff;
     left: 8%;
     transform: rotate(-20deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
 }
 .p-21-2{
     position: absolute;
@@ -671,6 +718,10 @@ p,h1,h2,h3,h4,h5,h6{
     top: -17px;
     right: 15px;
     transform: rotate(200deg);
+    -moz-transform: rotate(376deg);
+    -webkit-transform: rotate(376deg);
+    -o-transform: rotate(376deg);
+    -ms-transform: rotate(376deg);
 }
 .p-22-1::before{
     content: '村長說';
@@ -686,9 +737,93 @@ p,h1,h2,h3,h4,h5,h6{
 .p-6-6{
     font-size: 48px;
 }
+.p-23-1{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    left: 5%;
+    color: #fff;
+}
+.p-24-1{
+    position: absolute;
+    top: 10%;
+    color: #fff;
+    left: 5%;
+    right: 5%;
+    text-align: right ;
+}
+.p-25-1{
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    left: 5%;
+    right: 5%;
+    text-align: center ;
+}
+.p-25-2{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 55%;
+    animation-duration: 3s;
+}
+.p-26-1{
+    position: absolute;
+    top: 60%;
+    right: 2%;
+    width: 46%;
+    color: #fff;
+}
+.p-26-2{
+    position: absolute;
+    top: 10%;
+    color: #fff;
+    left: 5%;
+}
+.p-27-1{
+    position: absolute;
+    top: 19%;
+    width: 56%;
+    left: 5%;
+}
+.p-28-1{
+    position: absolute;
+    top: 19%;
+    width: 100%;
+    text-align: center;
+}
+.p-27-2{
+    position: absolute;
+    top: 68%;
+    left: 8%;
+    width: 12%;
+}
+.p-26-3{
+    position: absolute;
+    bottom: 4%;
+    width: 14%;
+    right: 0;
+}
 @media only screen and (max-width: 575px) {
     .p-6-3{
         display: none;
+    }
+    .p-23-1,.p-24-1,.p-25-1,.p-26-1,.p-28-1{
+        font-size: 18px;
+    }
+    .p-28-1{
+        top: 10%;
+    }
+    .p-26-2,.p-27-1{
+        font-size: 16px;
+    }
+    .p-27-1{
+        top: 12%;
+    }
+    .p-26-1{
+        top: 60%;
+        font-size: 16px;
+        width: 50%;
     }
     .p-22-2{
         font-size: 16px;
@@ -922,6 +1057,7 @@ p,h1,h2,h3,h4,h5,h6{
         font-size: 15px;
     }
     .p-3-3 h3{
+        text-shadow: none;
         top: 200%;
         width: 90%;
         text-align: center;
@@ -958,6 +1094,10 @@ p,h1,h2,h3,h4,h5,h6{
         bottom: 27px;
         right: 10px;
         transform: rotate(180deg);
+        -moz-
+        -webkit-
+        -o-
+        -ms-
     }
     .bg-4 p{
         top: 200px;
@@ -1084,6 +1224,7 @@ p,h1,h2,h3,h4,h5,h6{
     }
     .p-3-3 h3{
         top: -150px;
+        text-shadow: none;
         width: 50%;
         color: #333;
         padding: 10px 15px;
@@ -1202,6 +1343,18 @@ p,h1,h2,h3,h4,h5,h6{
 @media only screen and (min-width: 1200px){
     .bg-67{
         /* margin-top: -77%; */
+    }
+}
+@media only screen and (min-width: 1300px){
+    .story{
+        width: calc(100% - 250px);
+    }
+    #sidebar-wrapper{
+        right: 250px;
+        width: 250px;
+    }
+    #sidebar-wrapper #menu-close{
+        display: none;
     }
 }
 /*動畫特效*/

@@ -302,6 +302,15 @@ footer {
     margin-left: -20px;
 }
 /*Edit*/
+.browserupgrade{
+    position: fixed;
+    top: 40%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    left: 30%;
+    right: 30%;
+    text-align: center;
+}
 #about{
     padding: 60px 0;
 }
@@ -373,9 +382,78 @@ footer {
 #qa .list a{
     text-decoration: none;
 }
+#mean{
+    background-color: #eee;
+    position: relative;
+}
+.headerWord{
+    margin-top: 200px;
+    display: block;
+}
+#mean .con{
+    margin-top: -250px;
+    background: #fff;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 22px rgba(50,50,50,0.5);
+    position: relative;
+    z-index: 10;
+}
+
+#mean p{
+    padding: 30px;
+}
+#mean .bg-img-01{
+    position: absolute;
+    top: 5%;
+    right: 0px;
+    animation-duration: 2s;
+}
+#mean .bg-img-02{
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    animation-duration: 2s;
+}
+#mean .bg-img-03{
+    position: absolute;
+    top: 60%;
+    right: 0px;
+}
+#mean .bg-img-05{
+    position: absolute;
+    bottom: 0%;
+    right: 0px;
+    width: 10%
+}
+#mean .bg-img-04{
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    width: 10%
+}
+#mean .con .titlecon{
+    padding: 80px 20px 60px 20px 
+}
+#mean p big{
+    color: #36b8e9;
+}
 @media only screen and (max-width: 575px){
     .text-vertical-center h1{
         font-size: 38px;
+    }
+    #mean .con .titlecon{
+        padding: 30px 20px 30px 20px 
+    }
+    #mean .con .titlecon h1{
+        font-size: 24px;
+    }
+    #mean .con .titlecon h5{
+        font-size: 16px;
+    }
+    .headerWord{
+        margin-top: 100px;
+        display: block;
     }
     #qa .list{
         font-size: 16px;
@@ -394,7 +472,7 @@ footer {
         -webkit-background-size: inherit;
         background-size: inherit;
     }
-    #beginning .col-sm-7{
+    #beginning .m-con{
         background-color: rgba(255, 255, 255, 0.7);
         padding: 20px 30px;
         border-radius: 10px;
@@ -405,6 +483,15 @@ footer {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .text-vertical-center h1{
         font-size: 60px;
+    }
+    #mean .con .titlecon{
+        padding: 50px 20px 40px 20px 
+    }
+    #mean .con .titlecon h1{
+        font-size: 24px;
+    }
+    #mean .con .titlecon h5{
+        font-size: 16px;
     }
     #about .left-con{
         bottom: 0;
@@ -422,7 +509,12 @@ footer {
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
-
+    #mean .con .titlecon h1{
+        font-size: 30px;
+    }
+    #mean .con .titlecon h5{
+        font-size: 18px;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
 
@@ -434,4 +526,71 @@ footer {
     #beginning{
         background-position: 0 -300px;
     }
+}
+/*動畫特效*/
+
+.left-in{
+    opacity: 0;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+}
+.left-in.in{
+    opacity: 1;
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+}
+.right-in{
+    opacity: 0;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    -o-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+}
+.right-in.in{
+    opacity: 1;
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+}
+.top-in{
+    opacity: 0;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+}
+.top-in.in{
+    opacity: 1;
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+}
+.nn-in{
+    opacity: 0;
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+}
+.nn-in.in{
+    opacity: 1;
 }
