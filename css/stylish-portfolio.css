@@ -479,6 +479,9 @@ footer {
         width: 85%;
         margin: 0 auto;
     }
+    #qa{
+        max-height: 1200px;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .text-vertical-center h1{
