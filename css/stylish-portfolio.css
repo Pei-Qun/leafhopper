@@ -474,10 +474,16 @@ footer {
     }
     #beginning .m-con{
         background-color: rgba(255, 255, 255, 0.7);
-        padding: 20px 30px;
+        /* padding: 20px 30px; */
         border-radius: 10px;
         width: 85%;
         margin: 0 auto;
+    }
+    #beginning .m-con h2{
+        padding: 20px 20px 0 20px;
+    }
+    #beginning .m-con p{
+        padding: 0px 20px 20px 20px;
     }
     #qa{
         max-height: 1200px;
